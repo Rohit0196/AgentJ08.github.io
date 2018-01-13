@@ -1,0 +1,160 @@
+body {
+	left: 0;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+header {
+	background: rgba(0,0,0,0.4);
+	color: white;
+	padding: 4px 0px 6px 40px;
+	height: 55px;
+}
+header h1{
+	display: inline;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	float: left;
+	margin-top: 12px;
+	margin-left: 20px;
+}
+header h1 a{
+	color: white;
+	text-decoration: none;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+	margin-left: 320px;
+
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: black;
+	float: left;
+	margin-left: 50px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.homered{
+	background-color: black;
+	padding: 30px 40px 20px 40px;
+}
+.homered:hover{
+	color: red;
+}
+.divider{
+	background-color: black;
+	height: 5px;
+	margin-top: 60px;
+	float: bottom;
+}
+.homeblack:hover {
+	color: red;
+}
+.profbox{
+	width: 500px;
+	height: 480px;
+	background: rgba(0,0,0,0);
+	padding: 30px;
+	color: white;
+	margin: 20px auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: 65px;
+	text-align: center;
+}
+.background{
+	background: url(images/blur5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.profpic{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+body div h1{
+	font-weight: 10;
+	letter-spacing: 5;
+	font-size: 40px;
+}
+body div p{
+	font-weight: 200;
+	letter-spacing: 1;
+}
+.logo{
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+}
+.logo2{
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	margin: 7.5px 0px 5px 30px;
+	float: left;
+}
+#loading{
+	width: 50px;
+	height: 50px;
+	border: 5px solid #ccc;
+	border-top-color: #ff6a00;
+	border-radius: 100%;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	animation: round 2s linear infinite;
+}
+#demo{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 250px;
+}
+.fixit{
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+.footer {
+  height: 0vh;
+  line-height: 0vh;
+  text-align: center;
+  padding: 3vh;
+  margin-top: 10vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes round{
+	from{transform: rotate(0deg)}
+	to{transform: rotate(360deg)}
+}
