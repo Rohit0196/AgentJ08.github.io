@@ -67,7 +67,7 @@ nav ul li a{
 	text-align: center;
 }
 .background{
-	background: url(images/blur5.jpg) no-repeat center center fixed; 
+	background: url(blur5.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
