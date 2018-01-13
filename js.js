@@ -59,8 +59,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s remaining in 2019";
+  document.getElementById("demo").innerHTML = "           PS:- " + days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s remaining in 2018. :P";
 
   // If the count down is finished, write some text
   if (distance < 0) {
