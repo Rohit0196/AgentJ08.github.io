@@ -5,10 +5,10 @@ function hideLoader(){
 }
 
 function showLoader(){
-	document.getElementById("loader").style.display = "inline";
-	setTimeout(function() { hideLoader() }, 2000);
-	setTimeout(function() { changeAfterShowLoader() }, 2200);
 	countShowClick++;
+	document.getElementById("loader").style.display = "inline";
+	setTimeout(function() { hideLoader() }, 1000);
+	setTimeout(function() { changeAfterShowLoader() }, 1200);
 }
 
 function changeAfterShowLoader(){
@@ -17,7 +17,8 @@ function changeAfterShowLoader(){
 		document.getElementById("b1").innerHTML = "Wanna try again?";
 	}
 	else{
-		document.getElementById("p1").innerHTML = "Again? Hire me already!";
-		document.getElementById("b1").innerHTML = "Ofc. Show me now!";	
+		document.getElementById("p1").innerHTML = "Again????? <br /> Hire me already!";
+		document.getElementById("b1").innerHTML = "Ofc.<br />Show me now!";	
 	}
 }
+

@@ -1,3 +1,7 @@
+body > *{
+	padding: .2em;
+}
+
 .loader{
 	width: 4em;
 	height: 4em;
@@ -5,10 +9,10 @@
 	border-top-color: #ff6a00;
 	border-radius: 100%;
 	position: fixed;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	margin: auto auto auto auto;
 	animation: round 2s linear infinite;
 }
