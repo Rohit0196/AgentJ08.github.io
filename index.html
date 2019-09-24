@@ -6,27 +6,36 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="js.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	 <meta charset="UTF-8">
   	<meta name="description" content="Personal Webpage">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <meta name="author" content="Arpit Maheshwari">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body onload="hideloader()">
-<div id="loading"></div>
-<div class="profbox">
-	<img alt="Profile Pic" src="profile.jpg" class="profpic">
-	<h1>Arpit Maheshwari</h1>
-	<h5>CS Enthusiast | MERN stack developer</h5>
-	<p>Movies and TV Series addict!!</p>
-	<a target="_blank" title="Connect on Facebook" href="https://www.facebook.com/arpit.maheshwari08"><img class="logo" alt="Facebook" src="fblogo.png"></a>
-	<a target="_blank" title="My Git" href="https://github.com/AgentJ08"><img class="logo" alt="Github" src="githublogo.png"></a>
-	<a target="_blank" title="Connect on Linkedin" href="https://www.linkedin.com/in/arpit-maheshwari0804/"><img class="logo" alt="LinkedIn" src="linkedinlogo.png"></a>
-	<a target="_blank" title="Follow me on Twitter" href="https://twitter.com/rpit08"><img class="logo" alt="Twitter" src="twitterlogo.png"></a>
-	<a target="_blank" title="Follow me on Quora" href="https://www.quora.com/profile/Arpit-Maheshwari-54"><img class="logo" alt="Quora" src="qlogo.png"></a>
-	<a target="_blank" title="Email id" href="mailto:arpit08@protonmail.com"><img class="logo" alt="Proton Mail" src="pmlogo.png"></a><br>
-	<p id="demo">New Year Countdown</p>
-	<p> ©Arpit Maheshwari. All rights reserved </p>
-</div>
+<body onload="hideLoader()">
+<div class="loader" id="loader"></div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a target="_blank" class="navbar-brand" href="https://github.com/AgentJ08">Github</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a target="_blank" class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank" class="nav-link" href="https://github.com/AgentJ08?tab=repositories">My Projects</a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank" class="nav-link" href="#">About Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<p id="p1">You might have missed the loader 'cause of good internet.</p>
+<button type="button" class="btn btn-primary" id="b1" onclick="showLoader()">Wanna see?</button>
 </body>
 </html>
