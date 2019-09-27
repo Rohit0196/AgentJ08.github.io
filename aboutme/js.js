@@ -4,7 +4,7 @@ var githubusername = "AgentJ08";
 githubrequest.open('GET', 'https://api.github.com/users/' + githubusername);
 githubrequest.onload = function() {
     var githubdata = JSON.parse(githubrequest.responseText);
-    document.getElementById("github").innerHTML = `
+    document.getElementById("github").innerHTML = document.getElementById("github").innerHTML + `
 		<div class="row">
 			<div class="col-3">
 				<img class="img-fluid" src="${ githubdata.avatar_url }" />
@@ -27,3 +27,4 @@ githubrequest.onload = function() {
 }
 
 githubrequest.send();
+
